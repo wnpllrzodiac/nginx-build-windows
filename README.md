@@ -14,6 +14,7 @@ Note: The version in the Openssl folder name should be removed because in the fi
 
 ## Build Steps
 
+0. Install activestate perl from https://www.activestate.com/products/perl/downloads/ and rename bin/perl.exe to bin/perl.exe.bak
 1. Open the "Developer Command Prompt for VS2015". Run "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\vcvars32.bat".
 2. Run "C:\MinGW\msys\1.0\msys.bat" to open the MINGW32 environment.
 3. Enter the repository folder. Run the command
