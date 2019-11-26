@@ -12,6 +12,9 @@ You can download the library source code tar.gz and extract them to the objs/lib
 
 Note: The version in the Openssl folder name should be removed because in the file auto\lib\openssl\makefile.msvc the folder name is without version information.
 
+## refer
+https://www.cnblogs.com/iamyuxing/p/10883626.html
+
 ## Build Steps
 
 0. Install activestate perl from https://www.activestate.com/products/perl/downloads/ and rename bin/perl.exe to bin/perl.exe.bak
