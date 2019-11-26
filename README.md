@@ -41,6 +41,10 @@ auto/configure \
 --with-openssl-opt=no-asm \
 --with-select_module  \
 --with-http_ssl_module \
+--add-module=./nginx-http-flv-module-1.2.7
+
+#--add-module=./nginx-rtmp-module-1.2.1
+
 ```
 4. Run "nmake -f objs/Makefile".
 5. The nginx.exe should be generated in objs folder.
